@@ -1,0 +1,50 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+	<head>
+		<title>jQuery Countdown Example</title>
+		<script src="http://www.google.com/jsapi"></script>
+		<script>
+		  google.load("jquery", "1.3.2");
+		</script>
+		<script type="text/javascript" src="jquery.countdown.js"></script>
+		<script type="text/javascript">
+		$(function () {
+			$('#defaultCountdown').countdown({
+				until: +300,
+				format: 'YDHMS',
+				layout: '<div id="timer">'+
+							'<div id="vals">'+
+								'<div id="y" class="numbs">{ynn}</div>'+
+								'<div id="d" class="numbs">{dnnn}</div>'+
+								'<div id="h" class="numbs">{hnn}</div>'+
+								'<div id="m" class="numbs">{mnn}</div>'+
+								'<div id="s" class="numbs">{snn}</div>'+
+							'</div>'+
+							'<div id="labels">'+
+								'<div id="yl" class="labs">years</div>'+
+								'<div id="dl" class="labs">days</div>'+
+								'<div id="hl" class="labs">hours</div>'+
+								'<div id="ml" class="labs">mins</div>'+
+								'<div id="sl" class="labs">secs</div>'+
+							'</div>'+
+							'<div id="timer_over"></div>'+
+						'</div>'
+				});
+		});
+		</script>
+		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+		<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="style.ie.css" media="all" />
+		<![endif]-->
+	</head>
+	<body>
+
+	<h2>jQuery Countdown with Shaded Background and Overlay</h2>
+	<p>This example uses Keith Wood's <a href="http://keith-wood.name/countdown.html">jQuery Countdown</a> library to do the countdown itself and uses background images and a div that is overlaid on top of the text for further affect. Here's what it looks like:</p>
+
+	<div id="defaultCountdown"></div>
+
+	</body>
+</html>

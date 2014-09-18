@@ -1,0 +1,46 @@
+#timer_over {
+	width: 300px;
+	height: 55px;
+	background: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: : 0px;
+}
+#yl {
+	float:left;
+	width: 51px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+#dl {
+	float:left;
+	width: 74px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+#hl {
+	float:left;
+	width: 44px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+#ml {
+	float:left;
+	width: 55px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+#sl {
+	float:left;
+	width: 42px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+

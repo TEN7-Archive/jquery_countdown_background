@@ -1,0 +1,192 @@
+/** the whole page **/
+html, body {
+	margin : 0px;
+	padding : 20px;
+	text-align : left;
+	font-family : Helvetica, Arial, Sans-Serif;
+	background : #FFFFFF;
+}
+/* copy styles */
+h1, h2, h3, h4, p, li {
+	font-family : Helvetica, Arial, Sans-Serif;
+	text-align : left;
+}
+pre {
+	font-family: "Courier New", Courier, Monaco, monospace;
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+h1, h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+p, li {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+}
+td, th {
+	font-family : Helvetica, Arial, Sans-Serif;
+	font-size: 14px;
+	margin: 0px;
+}
+
+/** hyper links **/
+a:link {
+	color: #0074ae;
+	text-decoration : underline;
+	font-weight : normal;
+}
+a:visited {
+	color: #006294;
+	text-decoration : underline;
+	font-weight : normal;
+}
+a:hover  {
+	color: #000000;
+	text-decoration : underline;
+	font-weight : normal;
+}
+
+
+#timer {
+	width: 300px;
+	height: 55px;
+	position: relative;
+}
+
+#timer_over {
+	width: 300px;
+	height: 55px;
+	background-image: url(Countdown-over.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	margin: 0px;
+	padding: : 0px;
+}
+
+
+#vals {
+	width: 100%;
+	clear:both;
+	margin: 0px auto;
+}
+
+.numbs {
+	font-size: 28px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	color: #ffffff;
+}
+
+#y {
+	background-image: url(Countdown2.png);
+	background-repeat: no-repeat;
+	float:left;
+	width: 48px;
+	height:35px;
+	background-color:#ffffff;
+	padding: 0px 0px 0px 3px;
+	margin: 1px;
+	letter-spacing: 7px;
+}
+#d {
+	background-image: url(Countdown3.png);
+	background-repeat: no-repeat;
+	float:left;
+	width: 71px;
+	height:35px;
+	background-color:#ffffff;
+	padding: 0px 0px 0px 3px;
+	margin: 1px;
+	letter-spacing: 7px;
+}
+#h {
+	background-image: url(Countdown2.png);
+	background-repeat: no-repeat;
+	float:left;
+	width: 48px;
+	height:35px;
+	background-color:#ffffff;
+	padding: 0px 0px 0px 3px;
+	margin: 1px;
+	letter-spacing: 7px;
+}
+#m {
+	background-image: url(Countdown2.png);
+	background-repeat: no-repeat;
+	float:left;
+	width: 47px;
+	height:35px;
+	background-color:#ffffff;
+	padding: 0px 0px 0px 3px;
+	margin: 1px;
+	letter-spacing: 7px;
+}
+#s {
+	background-image: url(Countdown2-nc.png);
+	background-repeat: no-repeat;
+	float:left;
+	width: 42px;
+	height:35px;
+	background-color:#ffffff;
+	padding: 0px 0px 0px 3px;
+	margin: 1px;
+	letter-spacing: 7px;
+}
+
+#labels {
+	width: 100%;
+	clear:both;
+	margin: 0px auto;
+}
+
+.labs {
+	font-size: 9px;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+}
+#yl {
+	float:left;
+	width: 51px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+#dl {
+	float:left;
+	width: 74px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+#hl {
+	float:left;
+	width: 54px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+#ml {
+	float:left;
+	width: 55px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+#sl {
+	float:left;
+	width: 46px;
+	height:15px;
+	padding:0px;
+	margin: 0px;
+}
+
+
+#defaultCountdown { width: 300px; height: 55px; text-align: center;}
